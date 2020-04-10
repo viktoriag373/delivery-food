@@ -1,0 +1,1 @@
+"use strict";const cardButton=document.querySelector("#card-button"),modal=document.querySelector(".modal"),modalClose=document.querySelector(".modal-close");function toggleModal(){modal.classList.toggle("is-open")}cardButton.addEventListener("click",toggleModal),modalClose.addEventListener("click",toggleModal),(new WOW).init();
